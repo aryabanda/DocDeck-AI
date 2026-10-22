@@ -1,0 +1,172 @@
+{
+  "questions": [
+    {
+      "type": "factual",
+      "question": "Who is known as the Father of Scientific Management?",
+      "page": 3,
+      "evidence": "known as the Father of Scientific Management"
+    },
+    {
+      "type": "list",
+      "question": "What are the five functions of management?",
+      "page": 1,
+      "evidence": "Staffing: Filling organizational positions"
+    },
+    {
+      "type": "factual",
+      "question": "Who proposed the Managerial Grid and when?",
+      "page": 6,
+      "evidence": "Robert Blake and Jane Mouton proposed the Managerial Grid in 1964"
+    },
+    {
+      "type": "numeric",
+      "question": "How does PERT estimate the expected time of an activity?",
+      "page": 9,
+      "evidence": "optimistic, most likely and pessimistic time estimates"
+    },
+    {
+      "type": "factual",
+      "question": "What is Herzberg's Two-Factor Theory?",
+      "page": 5,
+      "evidence": "Herzberg divided job-related factors into hygiene/maintenance factors and motivators"
+    },
+    {
+      "type": "list",
+      "question": "What are the main types of entrepreneurs?",
+      "page": 10,
+      "evidence": "Fabian: changes only when it becomes necessary"
+    },
+    {
+      "type": "factual",
+      "question": "How do Theory X and Theory Y differ?",
+      "page": 5,
+      "evidence": "Theory X is the traditional, negative and relatively autocratic view"
+    },
+    {
+      "type": "factual",
+      "question": "What is span of management?",
+      "page": 8,
+      "evidence": "number of subordinates who report directly to one manager"
+    },
+    {
+      "type": "list",
+      "question": "What are the steps of the decision-making process?",
+      "page": 7,
+      "evidence": "identify the gap between the present and desired state"
+    },
+    {
+      "type": "numeric",
+      "question": "What operating surplus does the CampusBite example expect per month?",
+      "page": 17,
+      "evidence": "estimated operating surplus"
+    },
+    {
+      "type": "numeric",
+      "question": "How much startup money does CampusBite need?",
+      "page": 17,
+      "evidence": "for containers, basic equipment, initial packaging, promotion"
+    },
+    {
+      "type": "table",
+      "question": "What support does NSIC give to small businesses?",
+      "page": 14,
+      "evidence": "NSIC Helps small businesses get machinery, raw materials and marketing support"
+    },
+    {
+      "type": "table",
+      "question": "Which institution provides long-term loans and business guidance to industries?",
+      "page": 14,
+      "evidence": "IFCI Provides long-term loans and business guidance to industries"
+    },
+    {
+      "type": "list",
+      "question": "What are the nine building blocks of the Business Model Canvas?",
+      "page": 16,
+      "evidence": "Customer Segments: the groups of people or organisations the business serves"
+    },
+    {
+      "type": "factual",
+      "question": "What is the 6-3-5 method in brainwriting?",
+      "page": 14,
+      "evidence": "six people, three ideas each, in five minutes"
+    },
+    {
+      "type": "list",
+      "question": "What are the sources of business ideas?",
+      "page": 14,
+      "evidence": "Distribution channels: retailers and distributors understand market demand"
+    },
+    {
+      "type": "factual",
+      "question": "What are the disadvantages of a partnership?",
+      "page": 11,
+      "evidence": "partners may have unlimited liability"
+    },
+    {
+      "type": "factual",
+      "question": "What is the difference between a private and a public limited company?",
+      "page": 11,
+      "evidence": "A private limited company does not invite the general public to buy its shares"
+    },
+    {
+      "type": "factual",
+      "question": "What is accountability in delegation?",
+      "page": 8,
+      "evidence": "obligation to account for the fulfilment of responsibility"
+    },
+    {
+      "type": "list",
+      "question": "What are the types of control?",
+      "page": 9,
+      "evidence": "anticipates problems before they occur and enables preventive action"
+    },
+    {
+      "type": "factual",
+      "question": "What are the internal sources of finance?",
+      "page": 12,
+      "evidence": "retained profits, controlling working capital and selling unused assets"
+    },
+    {
+      "type": "factual",
+      "question": "How do small businesses help regional development?",
+      "page": 12,
+      "evidence": "They help develop villages and backward areas"
+    },
+    {
+      "type": "paraphrase",
+      "question": "Why might a manager be strict in an emergency but participative otherwise?",
+      "page": 4,
+      "evidence": "a strict management style during an emergency"
+    },
+    {
+      "type": "paraphrase",
+      "question": "Which kind of entrepreneur keeps the old way even while losing customers?",
+      "page": 10,
+      "evidence": "refuses to change even when the business suffers"
+    },
+    {
+      "type": "paraphrase",
+      "question": "Why can one department not be changed without affecting the others?",
+      "page": 3,
+      "evidence": "If one department changes, it can affect the other departments"
+    },
+    {
+      "type": "typo",
+      "question": "wat is decentralisation and its disadvntages",
+      "page": 8,
+      "evidence": "higher cost, lack of uniformity and difficulties in coordination"
+    },
+    {
+      "type": "typo",
+      "question": "explan maslow hierarcy of neds",
+      "page": 5,
+      "evidence": "food, clothing, shelter, air and water"
+    },
+    {
+      "type": "typo",
+      "question": "what is bussiness plan and why is it importnt",
+      "page": 15,
+      "evidence": "written document that explains how to start and run a business"
+    }
+  ]
+}
