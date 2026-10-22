@@ -285,4 +285,51 @@ These scores have not yet been measured and are intentionally left blank rather 
 
 ## Design Decisions
 
-### 1. Page
+### 1. Page-Aware Chunking
+
+Chunks never cross page boundaries. This keeps the source page associated with each retrieved passage, allowing the application to provide page-level citations.
+
+### 2. Hybrid Extractive and Generative Summarization
+
+The extractive pipeline selects relevant sentences and groups them into topics. The LLM rewrites only the selected sentences, limiting the input context and helping keep generated slides grounded in the source document.
+
+### 3. Configurable LLM Provider
+
+The application uses the OpenAI SDK with an OpenAI-compatible endpoint. The provider and model can be changed through environment variables without rewriting the application logic.
+
+### 4. In-Memory PowerPoint Generation
+
+PowerPoint files are generated using `python-pptx` in memory and returned as bytes. This avoids creating temporary presentation files on disk.
+
+### 5. Evaluation-Driven Retrieval Tuning
+
+Chunk size and retrieval parameters are evaluated against questions with verified evidence phrases and page numbers. The measured results help identify a suitable retrieval configuration instead of relying only on subjective testing.
+
+## Limitations
+
+- **Scanned PDFs:** Image-only PDFs are not supported because OCR is not included.
+- **Extractive summarization:** TF-IDF scoring can favour frequently occurring terms and may miss important context.
+- **ROUGE limitations:** ROUGE can penalize semantically correct paraphrases that differ from the reference wording.
+- **Retrieval limitations:** The evaluation contains only 28 questions from one test document, so the results do not establish performance across all PDF types.
+- **Table extraction:** Table-based questions remain challenging, especially when the relevant evidence is split across extracted text or poorly structured tables.
+- **In-memory indexing:** Document indexes are lost when the API process restarts.
+- **LLM dependence:** LLM-written slides and generated answers require a configured, reachable LLM endpoint.
+- **Optional slide theme:** Place an `organic_template.pptx` file next to `app.py` to use a custom presentation theme.
+
+## Future Improvements
+
+- Evaluate retrieval on additional PDFs and larger question sets.
+- Experiment with chunk overlap, reranking, and hybrid keyword-plus-vector retrieval.
+- Improve PDF table extraction and numeric question handling.
+- Complete refusal evaluation and tune `RAG_MIN_SCORE`.
+- Measure ROUGE scores using human-written reference summaries.
+- Add persistent storage for document indexes.
+- Improve answer evaluation by checking factual correctness and citation accuracy.
+
+## Conclusion
+
+DocDeck-AI combines extractive and LLM-based presentation generation with document-grounded question answering and page citations.
+
+In the initial retrieval evaluation, using 28 questions from an 18-page PDF, 180-word chunks achieved the highest Hit@1 (`0.61`), while 300-word chunks achieved the highest MRR (`0.73`). Both configurations reached a Hit@k of `0.96` at `k=5`.
+
+These measurements provide an initial retrieval baseline for the project. Refusal accuracy and ROUGE-based summary quality remain pending further evaluation.
