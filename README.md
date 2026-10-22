@@ -1,4 +1,4 @@
-# SummarAIze
+# DocDeck-AI
 
 Turn a PDF into a slide deck, or ask it questions and get answers with page citations.
 
