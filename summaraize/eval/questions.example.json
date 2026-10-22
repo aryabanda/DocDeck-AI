@@ -1,6 +1,0 @@
-{
-  "questions": [
-    {"question": "REPLACE with a question your PDF answers", "page": 1, "evidence": "REPLACE with a short exact phrase from the PDF"},
-    {"question": "REPLACE with another question", "page": 2, "evidence": "REPLACE with a short exact phrase"}
-  ]
-}
