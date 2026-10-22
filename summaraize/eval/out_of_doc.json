@@ -1,0 +1,40 @@
+{
+  "questions": [
+    {
+      "type": "far_off",
+      "question": "Explain parallel programming"
+    },
+    {
+      "type": "far_off",
+      "question": "What is the capital of France?"
+    },
+    {
+      "type": "far_off",
+      "question": "What is the GST rate on restaurant services in India?"
+    },
+    {
+      "type": "hard_negative",
+      "question": "What is Vroom's expectancy theory of motivation?"
+    },
+    {
+      "type": "hard_negative",
+      "question": "Explain Ouchi's Theory Z"
+    },
+    {
+      "type": "hard_negative",
+      "question": "What are Porter's five forces?"
+    },
+    {
+      "type": "hard_negative",
+      "question": "What is Six Sigma and how is it applied?"
+    },
+    {
+      "type": "hard_negative",
+      "question": "What is the BCG matrix?"
+    },
+    {
+      "type": "hard_negative",
+      "question": "Give the step-by-step procedure to register a private limited company with the MCA"
+    }
+  ]
+}
